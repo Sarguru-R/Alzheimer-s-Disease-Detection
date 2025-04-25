@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    background-image: url(/static/alz.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    list-style-type: none;
+}
+
+input{
+    font-size: 2rem;
+    background: transparent;
+}
+
+.container{ 
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%; 
+}
+
+.container h1{
+    font-family: petite-caps;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.box{
+    width: 100%; 
+    margin: 22px 0px;
+    border-bottom: 2px solid white;
+}
+
+.box input{  
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: white;
+}
+    
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: petite-caps;
+    background: none;
+    font-weight: bold;
+    
+}
+
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    color: white; 
+    background: black; 
+    
+}
